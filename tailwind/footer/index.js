@@ -5,9 +5,9 @@ import {
   IconButton
 } from "../";
 
-const index = ()=>{
+const Index = ()=>{
   const design = (
-    <>
+    <div>
       <div className="bg-slate-900 p-8 sm:p-16">
         <div className="mx-auto flex flex-col sm:flex-row sm:justify-between gap-10 sm:gap-0">
           <div>
@@ -45,9 +45,9 @@ const index = ()=>{
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
   return design;
 }
 
-export default index;
+export default Index;
